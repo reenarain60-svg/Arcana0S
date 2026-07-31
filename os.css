@@ -40,3 +40,42 @@ transform:scale(1.05);
 box-shadow:0 0 30px rgba(212,175,55,.5);
 
 }
+button{
+
+background:#D4AF37;
+
+color:black;
+
+border:none;
+
+padding:15px 30px;
+
+border-radius:30px;
+
+font-weight:bold;
+
+cursor:pointer;
+
+transition:.3s;
+
+}
+
+button:hover{
+
+transform:scale(1.05);
+
+box-shadow:0 0 20px rgba(212,175,55,.6);
+
+}
+
+body{
+
+min-height:100vh;
+
+background:#050505;
+
+color:white;
+
+font-family:Arial, sans-serif;
+
+}
