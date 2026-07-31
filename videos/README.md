@@ -4,3 +4,4 @@ Examples:
 - intro.mp4
 - promo.mp4
 - episode1.mp4
+latest.mp4
