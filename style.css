@@ -41,3 +41,16 @@ transform:translateY(-6px);
 h2{
 color:#D4AF37;
 }
+nav{
+display:flex;
+justify-content:center;
+gap:20px;
+padding:20px;
+background:#101010;
+}
+
+nav a{
+color:#D4AF37;
+text-decoration:none;
+font-weight:bold;
+}
