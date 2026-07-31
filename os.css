@@ -1,15 +1,42 @@
-                    ✨
+      header{
+text-align:center;
+padding:40px;
+}
 
-             ARCANA
+.dashboard{
 
-        ◉ Founder Desk
+display:grid;
 
-   ✦ Spotlight      ✦ Finance
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
 
-✦ Portfolio        ✦ Character Box
+gap:30px;
 
-   ✦ Contributors   ✦ Calendar
+padding:40px;
 
-        ◉ Observatory
+}
 
-             ⚙ Settings
+.planet{
+
+background:#111;
+
+border:2px solid #D4AF37;
+
+border-radius:25px;
+
+padding:35px;
+
+text-align:center;
+
+transition:.3s;
+
+cursor:pointer;
+
+}
+
+.planet:hover{
+
+transform:scale(1.05);
+
+box-shadow:0 0 30px rgba(212,175,55,.5);
+
+}
